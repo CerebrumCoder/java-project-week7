@@ -29,7 +29,10 @@ public class Exercise10_05 {
             System.out.print(invers.pop() + " ");
         }
 
-        // Abstraksi itu apa2 yang hanya bisa diketahui oleh suatu framework
+        // Abstraksi itu apa yang hanya bisa diketahui oleh suatu framework
+
+        // UML memisahkan kelas Student dan kelas Address.
+        // Data student dan data almaat berbedaws
     }
 
 
