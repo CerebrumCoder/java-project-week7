@@ -17,7 +17,7 @@ class Time {
         this(System.currentTimeMillis());
     }
 
-    // Mengisi constructor currentTimeMillis(). Men define kelas Time()
+    // Mengisi constructor currentTimeMillis(). Men define kelas Time(), sehingga kalau dipake harus wajib diisi.
     public Time(long elapsedTime) {
         setTime(elapsedTime);
     }
