@@ -4,5 +4,10 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "/Users/neal/Downloads/junit-platform-console-standalone-1.9.1.jar"
-    ]
+    ],
+    "java.format.settings.url": "eclipse-formatter.xml",
+    "[java]": {
+        "editor.insertSpaces": true
+    },
+    "java.debug.settings.onBuildFailureProceed": true
 }

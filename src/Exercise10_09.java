@@ -76,7 +76,8 @@ class Student {
 class Course {
     private String courseName;
     // Padahal kita nambah students itu ada 13 dari awal. Disini kita bilangnya 2.
-    // Kalau bicara performance, array primitive lebih efisien. Secara default kecil, nanti makin lama
+    // Kalau bicara performance, array primitive lebih efisien. Secara default
+    // kecil, nanti makin lama
     // makin bagus. jadi ini untuk alokasi memori biar kepake lebih efisien
     private Student[] students = new Student[2];
     private int numberOfStudents;
@@ -99,7 +100,8 @@ class Course {
     }
 
     // Meningkatkan size array ketika banyak siswa sudah sama dengan array students
-    // TP 2 jangan pakai array list. Disini pakai array primitive. Array list dia dibelakang layar
+    // TP 2 jangan pakai array list. Disini pakai array primitive. Array list dia
+    // dibelakang layar
     // melakukan list efisiensi juga.
     // Pola ini bisa dipakai untuk TP 2. IMPORTANTTTT.
     private void increaseSize() {
@@ -142,4 +144,3 @@ class Course {
         }
     }
 }
-    
